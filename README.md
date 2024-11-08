@@ -16,8 +16,7 @@
      ```
      curl -X POST -H "Content-Type: application/json" -d @morning.json http://localhost:8080/receipts/process
      ```
-
-  - To get points for a receipt:
+   - To get points for a receipt:
      ```
      curl http://localhost:8080/receipts/{id}/points
      ```
